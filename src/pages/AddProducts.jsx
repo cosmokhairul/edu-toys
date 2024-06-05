@@ -27,7 +27,7 @@ const AddProducts = () => {
         });
 
         if (result.isConfirmed) {
-            await fetch("http://localhost:5000/shoes", {
+            await fetch("https://edu-toys-server-three.vercel.app/shoes", {
                 method: "POST",
                 headers: {
                     "Content-type": "application/json",

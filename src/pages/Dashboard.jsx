@@ -9,7 +9,7 @@ const Dashboard = () => {
     console.log(userInfo);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/user/${user?.email}`)
+        fetch(`https://edu-toys-server-three.vercel.app/user/${user?.email}`)
             .then((res) => res.json())
             .then((data) => setUserInfo(data));
     }, [user]);

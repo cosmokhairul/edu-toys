@@ -19,7 +19,7 @@ const SingleProductCardDashboard = ({ shoe, onDelete }) => {
         });
 
         if (result.isConfirmed) {
-            await fetch(`http://localhost:5000/shoes/${_id}`, {
+            await fetch(`https://edu-toys-server-three.vercel.app/shoes/${_id}`, {
                 method: "DELETE",
                 headers: {
                     "Content-type": "application/json",

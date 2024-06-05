@@ -32,7 +32,7 @@ const EditProducts = () => {
         });
 
         if (result.isConfirmed) {
-            await fetch(`http://localhost:5000/shoes/${shoe._id}`, {
+            await fetch(`https://edu-toys-server-three.vercel.app/shoes/${shoe._id}`, {
                 method: "PATCH",
                 headers: {
                     "Content-type": "application/json",
