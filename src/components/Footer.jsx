@@ -3,7 +3,7 @@ const Footer = () => {
     return (
         <footer className="footer p-10 bg-neutral text-neutral-content">
             <div>
-                <a className="text-2xl font-semibold ">SHOE LAND</a>
+                <a className="text-2xl font-semibold ">EduToys</a>
                 <p className="text-base">Copyright © 2024 - All right reserved</p>
             </div>
             <nav>
